@@ -143,3 +143,4 @@ RESTful API learning
 * [wiki状态码](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 * [RESTful API规范（详细版）](https://blog.csdn.net/qq_37257657/article/details/81206520)
 * [如何理解RESTful的幂等性](https://blog.csdn.net/garfielder007/article/details/55684420)
+* [restful文档](https://www.aliyun.com/jiaocheng/813951.html?spm=5176.100033.1.25.7724a973fYSSv4)
