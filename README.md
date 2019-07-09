@@ -133,6 +133,24 @@ RESTful API learning
       
 ##### HTTP状态码跟业务错误码并不冲突
 
+## 接口开发规范：
+#### 命名规范:
+> _下划线作用是：填充:id字段，用于占位
+
+|方法|方法命名|请求方法|路由命名|
+|---|---|---|---|
+|导出|ExportResource|GET|/resource/_/export|
+|获取数据|GetResource|GET|/resource/:id|
+|列表|ListResource|GET|/resource|
+|获取详情|DetailResource|GET|/resource/:id/detail|
+|创建数据并插入数据库|CreateResource|POST|/resource|
+|创建数据但不入库，仅返回|GenerateResource|POST|/resource/_/generate|
+|导入|ImportResource|POST|/resource/_/import|
+|检查校验|CheckResource|POST|/resource/_/check|
+|其他|ActionResource|POST|/resource/:id/action|
+|更新/修改|UpdateResource|PUT|/resource/:id|
+|批量修改|BatchUpdateResource|PUT|/resource/_/batch_update|
+|删除|DeleteResource|DELETE|/resource/:id|
 
 #### 参考
 * [理解RESTful架构 ](http://www.ruanyifeng.com/blog/2011/09/restful.html) [作者： 阮一峰]
